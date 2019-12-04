@@ -26,3 +26,6 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 PS1='[\u@\h \W]\$ '
+
+eval `ssh-agent -s`
+ssh-add
